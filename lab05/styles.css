@@ -1,0 +1,40 @@
+/* ELEMENT SELECTORS */
+table {
+    border: solid 5px black;
+    border-spacing: 0px;
+
+}
+
+td, th {
+    border: solid 1px #000000;
+    padding:5px;
+}
+
+th {
+     /* YOUR BACKGROUND COLOR HERE */
+     /* YOUR (TEXT) COLOR HERE */
+    background-color: teal;
+    color: black;
+ }
+
+td {
+    /* YOUR BACKGROUND COLOR HERE */
+    /* YOUR (TEXT) COLOR HERE */
+    font-family: "Century Gothic";
+    background-color: teal;
+    color: black;
+}
+
+/* CLASSES */
+.total {
+    background-color: black;
+    color: teal;
+}
+
+.college {
+    /* YOUR BACKGROUND COLOR HERE */
+    /* YOUR (TEXT) COLOR HERE */
+    background-color: black;
+    color: teal;
+}
+

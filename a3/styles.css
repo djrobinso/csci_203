@@ -1,0 +1,68 @@
+body {
+    background-color: darkgray;/***#fafff1;***/
+
+}
+
+fieldset {
+    /*border-color: #00ff00;*/
+    border-color: red;
+    border-style: solid;
+}
+
+legend {
+    /*color: #ff16c8;*/
+    color:yellow;
+    font-family: "Comic Book";
+    text-align: center;
+}
+
+/*collapse is what you put to get rid of the cell spacing*/
+table {border-collapse: collapse;}
+
+
+td, th {
+    padding: 5px;
+    border: solid 1px black;/**#9728ff**/
+    font-family: "Calibri";
+    color: gold;
+}
+
+.top {
+    text-align: center;
+}
+
+h1{
+    font-family: "Comic Book";
+}
+#heading{
+    font-family: "Comic Book";
+    color: white;
+}
+#thanks {
+    font-family: "Comic Book";
+}
+#topheading{
+    color: white;
+}
+#question-thanks{
+    font-family: "Comic Book";
+    color: gold;
+}
+/****styles for the links*****/
+a{
+    font-family: "Comic Book";
+}
+a:hover{
+    color: darkred;
+    background-color: gold;
+}
+a:active{
+    background-color: yellow;
+}
+a:visited{
+    color: red;
+    background-color: gold;
+}
+a:link{
+    color: black;
+}

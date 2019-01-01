@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>Forms</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<form method="post" action="thanks.php" name="myform">
+			<fieldset><legend>My Form</legend>
+
+			<label for="dob">Date of Birth:</label>
+			<input type="date" name="dob" id="dob" />
+			<br />
+
+			<label for="fname">First Name:</label>
+			<input type="text" name="fname" id="fname" size="10"/>
+			<br />
+
+			<label for="mi">Middle Initial:</label>
+			<input type="text" name="mi" id="mi" size="5" maxlength="1">
+			<br />
+
+			<label for="lname">Last Name:</label>
+			<input type="text" name="lname" id="lname" size="35">
+			<br />
+
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" required>
+			<br />
+
+			<label for="pwd">Password:</label>
+			<input type="password" name="pwd" id="pwd" />
+			<br />
+</fieldset>
+			<fieldset><legend>Academic Information</legend>
+
+			<label for="grade">Grade Level:</label>
+			<select id="grade" name="grade">
+				<option value="">SELECT ONE</option>
+				<option value="FR">Freshman</option>
+				<option value="SO">Sophomore</option>
+				<option value="JR">Junior</option>
+				<option value="SR">Senior</option>
+			</select>
+			<br />
+
+			Degree:
+			<br />
+			<input type="radio" name="degree" id="degreeBS" value="BS">
+			<label for="degreeBS">Bachelor of Science</label>
+			<br />
+			<input type="radio" name="degree" id="degreeBA" value="BA">
+			<label for="degreeBA">Bachelor of Arts</label>
+			<br />
+
+			<label for="comments">Comments:</label><br />
+			<textarea name="comments" id="comments"></textarea>
+</fieldset>
+
+			<fieldset><legend>Submission</legend>
+			<br />
+			<label for="submit">Submit Form:</label>
+			<input type="submit" name="Submit" id="submit" value="submit" />
+
+			</fieldset>
+		</form>
+	</body>
+</html>
+
+

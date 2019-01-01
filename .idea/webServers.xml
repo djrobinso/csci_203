@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3ce65eab-e5a3-48b4-b219-60b83f948c0f" name="ccuresearch" url="http://ccuresearch.coastal.edu/djrobinso/csci203sp16">
+        <fileTransfer host="ccuresearch.coastal.edu" port="8822" rootFolder="/var/students/djrobinso/csci203sp16" accessType="SFTP" username="djrobinso">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

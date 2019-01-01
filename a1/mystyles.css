@@ -1,0 +1,170 @@
+* {
+    background-color: black;
+    color: green;
+}
+header {
+    border: solid 10px black;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+h1{
+    font-family: "Century Gothic";
+}
+
+footer{
+    border: solid 10px lightgray;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+aside {
+    border: solid 10px black;
+    border-radius: 20px;
+
+
+}
+
+body{
+    width: 1100px;
+}
+
+
+section {
+    border: solid 10px black;
+    border-radius: 20px;
+    text-align: center;
+
+}
+/***Making the two coloums***/
+.left{
+    float: left;
+    width: 500px;
+    margin-right: 200px;
+    /**position: relative;*/
+    padding-left: inherit;
+    text-align: left;
+    font-size: 16px;
+
+
+}
+
+.right {
+    float: right;
+    /*float: inherit;*/
+    width: 400px;
+    /*margin: 100px 140px 140px 140px;*/
+    /*position: fixed;*/
+    padding-right: inherit;
+
+}
+
+.bottom {
+    float: inherit;
+    margin-top: 1800px;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+
+
+/**Styling for the Links***/
+li a {
+    font-family:Cicle Gordita ;
+
+}
+
+nav ul li a {
+    font-family: Florencesans;
+}
+
+/**Just for the navs**/
+.nlinks:hover{
+    color: #56dfff;
+ }
+.nlinks:link{
+    color:deepskyblue;
+}
+.nlinks:visited{
+    color:mediumorchid;
+}
+.nlinks:active{
+    color:yellow;
+}
+
+/*Just for the aside links**/
+.asideLinks:hover{
+    color: #63ffd4;
+}
+.asideLinks:link{
+    color: lightblue;
+}
+.asideLinks:visited{
+    color: darkmagenta;
+}
+.asideLinks:active{
+    color: blue;
+}
+
+/***
+.sideLinks.a:link{
+
+    }
+.sideLinks.a:visited {
+
+    }
+.sideLinks.a:hover{
+
+    }
+.sideLinks.a:active {
+
+    }
+**/
+
+
+ul {
+    list-style-type: none;
+}
+
+.sectionText {
+    text-align: left;
+    word-wrap: break-word;
+    font-family: "Century Gothic";
+}
+h3 {
+    font-family: "Cicle Semi Italic" ;
+}
+.asideText {
+    font-family: "Century Gothic";
+    word-wrap: break-word;
+}
+#asideTitle {
+    font-family: "Century Gothic";
+}
+#sectionHeader {
+    font-family: "Century Gothic";
+}
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#_caption{
+    font-family: "Century Gothic";
+    font-size: small;
+}
+#__caption{
+    font-family: "Century Gothic";
+    font-size: small;
+}
+#nextPageLink {
+   font-family: Century;
+    font-size: medium;
+}

@@ -1,0 +1,221 @@
+*{
+    background-color: whitesmoke;
+}
+
+.description{
+    align-content: center;
+    font-family: "Century Gothic";
+}
+
+
+/****errors class for the errors displayed when entering things into the system**/
+.errors{
+    font-family: "Century Gothic";
+    color: red;
+}
+/****success class for the successful addition of a new member**/
+.success{
+    font-family: "Century Gothic";
+    color: limegreen;
+}
+
+.deleteconfirmation{
+
+}
+
+#beenMemberSince{
+    font-family: "Century Gothic";
+    color: deepskyblue;
+    align-content: center;
+}
+
+h1{ /***to align the header in the center of the page**/
+    text-align: center;
+    font-family: "Century Gothic";
+    border: dashed 3px black;
+
+}
+h2 {
+    text-align: left;
+    font-family: "Century Gothic";
+}
+
+/***id for the body of the index page***/
+#indexBody {
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+/**********for the navigation bar**/
+nav {
+    font-family: "Century Gothic";
+    background-color: deepskyblue;
+    background-size: 40px;
+    border: groove 3px black;
+    padding-bottom: 40px;
+}
+nav a {
+    font-family: "Century Gothic";
+    background-color: deepskyblue;
+
+}
+nav a:hover {
+    background-color: black;
+    color:dodgerblue;
+
+}
+nav a:link{
+    color: white;
+}
+nav a:hover{
+
+}
+nav a:visited{
+    color: mediumpurple;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline;
+    overflow: hidden;
+    background-color: deepskyblue;
+
+}
+ nav li {
+    float: left;
+     color: black;
+     background-color: deepskyblue;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/************************************/
+
+#dateShown{}
+
+#copyright{}
+
+/**Create the buttons for the nav section**/
+
+/**Create the styles for the links**/
+
+/***For the login forn on the login page***/
+#loginMessage{
+    font-family: "Century Gothic";
+    font-size: medium;
+}
+
+#loginTable td {
+    text-align: center;
+    font-family: "Century Gothic";
+    border: double black 2px;
+}
+
+.newItemsTable {
+    font-family: "Century Gothic";
+    border: black;
+}
+
+.itemsList{
+    font-family: "Century Gothic";
+    border-color: black;
+    border: 3px double black ;
+
+}
+.itemsList td,th {
+    border: 2px solid black;
+}
+#itemsListHyperLinks{
+
+}
+
+#detailsList{
+    font-family: "Century Gothic";
+    border: 5px black;
+    border-color: black;
+}
+#detailsList th,td {
+    border: 2px double black;
+}
+.userListTable {
+    font-family: "Century Gothic";
+    border:2px double black;
+
+}
+
+.passwordChangeTable {
+    font-family: "Century Gothic";
+    border: 2px double black;
+}
+.passwordLegend {
+    font-family: "Century Gothic";
+    color: deepskyblue;
+}
+
+.userListHyperLinks {
+
+}
+
+#userDetailTable{
+    font-family: "Century Gothic";
+    border: 2px double black;
+}
+
+/*********/
+
+#loginInstructions{
+    font-family: "Century Gothic";
+}
+
+/***user registration***/
+.userRegistrationLegend {
+    color: deepskyblue;
+    font-family: "Century Gothic";
+    
+}
+.userRegistrationtable{
+    font-family: "Century Gothic";
+}
+
+#confirmWelcome {
+    font-family: "Century Gothic";
+    font-size: large;
+}
+
+.conformLoginPageTable{
+    font-family: "Century Gothic";
+}
+
+footer{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 400px;
+}
+
+/****link styles fpr the normal links*****/
+a:hover{
+    color: cornflowerblue;
+    
+}
+a:link{
+    color: dodgerblueu;
+}
+a:active{
+    color: dodgerblue;
+}
+a:visited{
+    color: mediumpurple;
+}
+
+/*******for the authorization messages******/
+.authorizationWarning{
+    font-family: "Century Gothic";
+    color: red;
+}

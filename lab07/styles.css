@@ -1,0 +1,16 @@
+/* ELEMENT SELECTORS */
+table, td, th {
+    border: solid 1px #007073;
+    border-spacing: 0px;
+}
+
+td, th {
+    padding:5px;
+    text-align: left;
+}
+
+legend {
+    color: #007073;
+    font-size: 15px;
+    font-weight: bold;
+}

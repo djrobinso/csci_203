@@ -1,0 +1,40 @@
+body {
+    background-color: #faffa2;
+    color: #4911ff;
+    margin: 35px;
+    border: 5px solid #4911ff;
+    padding: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p {
+    color: black;
+    clear: both;
+    overflow: auto;
+}
+
+header {
+    background-color: #ff5eb6;
+    padding: 5px;
+}
+
+footer {
+    background-color: #ff5eb6;
+    text-align: center;
+}
+
+section {
+    overflow: auto;
+    border: 3px solid #37ffdf;
+}
+
+aside {
+    float: left;
+    width: 20px;
+}
+
+article {
+    float: right;
+    clear: left;
+    background-color: #cf13ff;
+}

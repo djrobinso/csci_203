@@ -1,0 +1,129 @@
+body {
+    background-color: coral;
+    color: #4911ff;
+    margin: 35px;
+    border: 5px solid #4911ff;
+    padding: 20px;
+    font-family: "Comic Sans MS", Calibri, Arial;
+}
+
+h1 {
+    font-size: 70px;
+    color: greenyellow;
+    background-color: #37ffdf;
+}
+h2 {
+    font-size: 60px;
+    color: orange;
+    background-color: darkblue;
+}
+h3 {
+    font-size: 50px;
+    color: purple;
+    background-color: black;
+}
+h4 {
+    font-size: 40px;
+    color: white;
+    background-color: green;
+}
+h5 {
+    font-size: 30px;
+    color: red;
+    background-color: grey;
+}
+h6 {
+    font-size: 20px;
+    color: green;
+    background-color: yellow;
+}
+
+.redlist {
+    color: #37ffdf;
+    font-family: "Cambria";
+}
+
+
+p {
+    color: black;
+    clear: both;
+    overflow: auto;
+    line-height: 16px;
+}
+
+header {
+    background-color: #ff5eb6;
+    padding: 5px;
+}
+
+footer {
+    background-color: coral;
+    text-align: center;
+    clear:both;
+}
+
+section {
+    overflow: auto;
+    border: 3px solid #37ffdf;
+}
+
+aside {
+    float: left;
+    width: 20px;
+}
+
+article {
+    float: right;
+    clear: left;
+    background-color: #cf13ff;
+}
+
+/**CLASS SELECTORS**/
+.rightimg {
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+}
+
+
+
+/*PSUEDO-CLASS SELECTORS**/
+a:link {
+    color: #FF0000;
+}
+a:visited {
+    color: #24CC5F;
+}
+a:hover {
+    color: #FAFFA2;
+    background-color: #4911ff;
+}
+a:active {
+    color: #cf13ff;
+}
+
+
+
+/*CONTEXTUAL SELECTORS**/
+header li {
+    display: inline;
+}
+
+nav a:link {
+    color: #cf13ff;
+    background-color: #faffa2;
+}
+nav a:visited {
+    color: #cc190f;
+    background-color: #63ffd4;
+}
+nav a:hover {
+    color: #56dfff;
+    background-color: #b006ff;
+}
+nav a:active {
+    color: #649dff;
+    background-color: #faffa2;
+}

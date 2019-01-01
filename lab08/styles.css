@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid #007073;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+th {
+    color: #007073;
+    background-color: #faf2e4;
+    text-align: left;
+}
+
+legend {
+    color: #007073;
+}
+
+header {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #00f2f9;
+}
+
+footer {
+    margin-top: 5px;
+    padding:10px;
+    background-color: #00f2f9;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display:inline;
+}
